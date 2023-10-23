@@ -1,0 +1,120 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Website</title>
+</head>
+
+<body class="Doc">
+    <header>
+        <nav id="nav1">
+            <div class="left"><i class="fa-solid fa-graduation-cap fa-sm" style="margin-right: 5px;"></i>Nakul's PortFolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="https://nakul2207.github.io/WeatherPedia/" target="_blank">Project</a></li>
+                    <li><a href="https://github.com/nakul2207" target="_blank">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/nakul-gupta-321893203/" target="_blank">About me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="First">
+            <div class="Leftpart"">
+                <div style=" font-size: 2.5rem; margin-top: 15%;">Hello, I am <span class="name">Nakul Gupta</span>
+            </div>
+            <div style="font-size: 2.5rem;">I am a Passionate</div>
+            <div style="font-size: 2.5rem;  color: rgb(150, 56, 150)"><span id="element"></span></div>
+            <div class="button">
+                <button class="btn"><a href="/">Download Resume</a></button>
+            </div>
+            </div>
+            <div class="rightpart">
+                <img src="IMG_4733.jpg" alt="">
+            </div>
+        </section>
+        <hr id="line">
+        <section class="Second">
+            <h1 id="hard">Hard Skills</h1>
+            <nav id="list">
+                <div id="icon">
+                    <ul>
+                        <li><span><i class="fa-brands fa-html5"
+                                    style="color: #fc891d; margin-right: 5px;"></i></span>HTML</li>
+                        <li><span><i class="fa-brands fa-css3-alt"
+                                    style="color: #0576e1; margin-right: 5px;"></i></span>CSS</li>
+                        <li><span><i class="fa-brands fa-square-js"
+                                    style="color: #eadb39; margin-right: 5px;"></i></span>JAVASCRIPT</li>
+                        <li><span><img src="c-.png" alt="" style="margin-right: 5px;"></span>C++</li>
+                        <li><span><i class="fa-brands fa-python fa-spin"
+                                    style="color: #47f3ff; margin-right: 5px;"></i></span>PYTHON</li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section id="Third">
+            <h1 id="pro">Projects</h1>
+            <div>
+                <a id="protitle" href="https://nakul2207.github.io/WeatherPedia/" target="_blank"><i
+                        class="fa-solid fa-cloud-sun-rain" style="color: #f6a504; "></i>WeatherPedia - All You need to
+                    know about weather</a>
+                <img id="image" style="text-align: center;" src="weather.png" alt="">
+                <div id="description">
+                    <h1 id="desc">Project Description</h1>
+                    <p id="over">WeatherPedia is a web application designed to provide users with up-to-date weather information
+                        for different locations around the world. It harnesses the power of modern web technologies,
+                        including HTML, Bootstrap, CSS, JavaScript, and React.js, to create a user-friendly and
+                        informative weather tracking tool.</p>
+                        <h1 id="desc">Key Features:</h1>
+                        <ul id="feature">
+                            <li><b>Weather API Integration:</b> WeatherPedia utilizes weather APIs to fetch real-time weather data for various locations, ensuring that users receive accurate and current information.</li>
+                            <li><b>User-Friendly Interface:</b> The application is built using HTML, Bootstrap, and CSS, resulting in an intuitive and visually appealing user interface. Users can easily navigate and interact with the application.</li>
+                            <li><b>Location Search:</b>  WeatherPedia enables users to search for weather details by entering a city or location. The application offers autocomplete suggestions to enhance the user experience.</li>
+                            <li><b>Detailed Weather Information:</b> Users can access comprehensive weather details, including current temperature, humidity, wind speed, and weather conditions for the specified location.</li>
+                        </ul>
+                        <h1 id="desc">Technologies Used:</h1>
+                        <ul id="tech">
+                            <li><b>HTML:</b> For structuring the web page.</li>
+                            <li><b>Bootstrap:</b> To create a responsive and visually appealing design.</li>
+                            <li><b>CSS:</b> For styling and layout.</li>
+                            <li><b>JavaScript:</b> For interactivity and data manipulation.</li>
+                            <li><b>React.js:</b> To build a dynamic and efficient user interface.</li>
+                        </ul>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="Fourth">
+            <div id="contact">
+                <h2>Contact Me</h2>
+                <p>Address : RZ-65, Dwarka, New Delhi </p>
+                <p>Phone No. : 9205879381</p>
+                <p>If you'd like to get in touch, feel free to email me at <a id="no"
+                        href="n.g.2272003@gmail.com">n.g.2272003@gmail.com</a>.</p>
+            </div>
+        </section>
+
+        <footer id="foot">
+            <p>&copy; 2023 Nakul Gupta</p>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer !!', 'Graphic Designer !!', 'C++ Enthusiast !!'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
