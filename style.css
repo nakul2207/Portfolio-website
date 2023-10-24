@@ -185,6 +185,7 @@ section div a:hover{
     nav{
         margin: auto;
         flex-direction: column;
+        padding-bottom: 10px;
     }
     .First{
         margin-left:auto;
