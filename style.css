@@ -183,7 +183,8 @@ section div a:hover{
         min-width: fit-content;
     }
     nav{
-        margin: auto    ;
+        margin: auto;
+        flex-direction: column;
     }
     .First{
         margin-left:auto;
