@@ -75,11 +75,12 @@ nav ul li a:hover{
 }
 .Fourth{
     background-color: rgb(1, 1, 95);
-    height: 22%;
+    height: fit-content;
 }
 #contact{
     padding-top: 20px;
     margin-left: 146px;
+    padding-bottom: 20px
 }
 section p{
     padding-top: 10px;
